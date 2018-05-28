@@ -794,7 +794,7 @@ static BOOL _forceShowingStoreReview = NO;
 }
 
 + (void)setForceShowngStoreReview:(BOOL)force {
-  _forceShowingStoreReview = force
+  _forceShowingStoreReview = force;
 }
 
 @end
