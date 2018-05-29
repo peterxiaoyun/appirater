@@ -798,7 +798,7 @@ static BOOL _forceShowingStoreReview = NO;
 }
 
 + (void)showRating {
-    [self showRatingAlert];
+    [[Appirater sharedInstance] showRatingAlert];
 }
 
 @end
