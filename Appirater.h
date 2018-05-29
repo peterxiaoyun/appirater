@@ -330,4 +330,6 @@ extern NSString *const kAppiraterReminderRequestDate;
 
 + (void)setForceShowngStoreReview:(BOOL)force;
 
++ (void)showRating;
+
 @end

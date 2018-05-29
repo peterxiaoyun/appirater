@@ -797,4 +797,8 @@ static BOOL _forceShowingStoreReview = NO;
   _forceShowingStoreReview = force;
 }
 
++ (void)showRating {
+    [self showRatingAlert];
+}
+
 @end
